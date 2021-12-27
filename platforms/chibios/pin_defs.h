@@ -87,8 +87,9 @@
 #    define A30 PAL_LINE(GPIOA, 30)
 #    define A31 PAL_LINE(GPIOA, 31)
 #    define A32 PAL_LINE(GPIOA, 32)
-#    define B0 PAL_LINE(GPIOB, 0)
-#    define B1 PAL_LINE(GPIOB, 1)
+//conflicts with some definition inside the ChibiOS HAL, maybe same approach as for KEYBOARD_REQUIRES_GPIOK?
+//#    define B0 PAL_LINE(GPIOB, 0)
+//#    define B1 PAL_LINE(GPIOB, 1)
 #    define B2 PAL_LINE(GPIOB, 2)
 #    define B3 PAL_LINE(GPIOB, 3)
 #    define B4 PAL_LINE(GPIOB, 4)
