@@ -31,6 +31,14 @@ void on_all_leds(void) {
     writePinLow(LED_MR_LOCK_PIN);
 }
 
+void keyboard_post_init_kb(void) {
+
+    /* flash leds, like default firmware */
+    on_all_leds();
+    wait_ms(500);
+    off_all_leds();
+}
+
 static bool win_key_locked = false;
 
 bool process_record_kb(uint16_t keycode, keyrecord_t *record) {
