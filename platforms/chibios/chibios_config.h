@@ -89,6 +89,6 @@
 #    define PAL_OUTPUT_SPEED_HIGHEST 0
 #endif
 
-#if defined(LPC11Uxx)
+#if defined(MCU_LPC)
 #    define CPU_CLOCK LPC_SYSOSC_FREQUENCY
 #endif 
