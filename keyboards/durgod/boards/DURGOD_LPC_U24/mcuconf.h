@@ -4,8 +4,9 @@
 #ifndef _MCUCONF_H_
 #define _MCUCONF_H_
 
-//even if we are actually using an LPC11U24
-#define LPC11U35_MCUCONF
+/* define MCU LPC11U24 and MCUCONF */
+#define LPC11U2x
+#define LPC11Uxx_MCUCONF
 
 #define LPC_USE_SYSOSC                              TRUE
 #define LPC_SYSOSC_FREQUENCY                        12000000UL // 12MHz
