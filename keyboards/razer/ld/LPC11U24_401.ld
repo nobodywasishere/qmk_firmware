@@ -1,0 +1,1 @@
+../../durgod/ld/LPC11U24_401.ld
